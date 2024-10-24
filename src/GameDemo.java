@@ -68,7 +68,7 @@ public class GameDemo {
 
         switch (stateChoice) {
             case 1:
-                character.setState(new character.state.NormalState());
+                character.setState(new character.NormalState());
                 System.out.println("Character is now in Normal State.");
                 break;
             case 2:
